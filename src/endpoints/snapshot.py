@@ -2,9 +2,9 @@ import os
 from src.endpoints.endpoint import Endpoint
 import pandas as pd
 
-__all__ = ['Bars',]
+__all__ = ['Snapshot',]
 
-class Bars(Endpoint):
+class Snapshot(Endpoint):
 
     path = '/bars'
     base_url = os.getenv('APCA_API_DATA_URI')

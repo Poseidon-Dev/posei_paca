@@ -4,7 +4,7 @@ __all__ = ['Endpoint',]
 
 class Endpoint(AlpacaConn):
     
-    endpoint = '' # stocks
+    endpoint = '/stocks' # stocks
     path = '' # trades
 
     def __init__(self, ticker=None, params=None, use_raw=False, use_json=False, ):

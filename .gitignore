@@ -12,6 +12,8 @@ test/
 tests/
 test.bak/
 tests.bak/
+test.*
+*.test
 
 # Distribution / packaging
 .Python

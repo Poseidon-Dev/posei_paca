@@ -1,4 +1,5 @@
-from src.endpoints import Endpoint, Trades, Quotes
+from src.endpoints import Endpoint, Trades, Quotes, Bars
 
-stock = Quotes('AAPL').to_df()
+stock = Bars('AAPL', start='2021-12-31').to_df()
 print(stock)
+
